@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <title>Quiz do Amor 💘</title>
+  <link rel="stylesheet" href="/love-quiz/src/css/style.css">
+</head>
+<body>
+  <h1>💘 Quiz do Amor 💘</h1>
+  <form id="quizForm" onsubmit="enviarQuiz(event)">
+    <div class="pergunta">
+      <p>1. Quem é o amor da minha vida?</p>
+      <label><input type="radio" name="q1" value="Você"> Você</label>
+      <label><input type="radio" name="q1" value="Peeta"> Peeta</label>
+      <label><input type="radio" name="q1" value="Bibi"> Bibi</label>
+      <label><input type="radio" name="q1" value="Você e Bibi"> Você e Bibi</label>
+    </div>
+
+    <div class="pergunta">
+      <p>2. Qual minha comida favorita?</p>
+      <label><input type="radio" name="q2" value="Lasanha"> Lasanha</label>
+      <label><input type="radio" name="q2" value="Sushi"> Sushi</label>
+      <label><input type="radio" name="q2" value="Pizza"> Pizza</label>
+      <label><input type="radio" name="q2" value="Macarrão"> Macarrão</label>
+    </div>
+
+    <div class="pergunta">
+      <p>3. Se eu fosse um emoji, qual seria?</p>
+      <label><input type="radio" name="q3" value="🥰" > 🥰</label>
+      <label><input type="radio" name="q3" value="😎"> 😎</label>
+      <label><input type="radio" name="q3" value="😼"> 😼</label>
+      <label><input type="radio" name="q3" value="💀"> 💀</label>
+    </div>
+
+    <div class="pergunta">
+      <p>4. O que eu mais gosto em você?</p>
+      <label><input type="radio" name="q4" value="Jeitinho"> Seu jeitinho</label>
+      <label><input type="radio" name="q4" value="chulézinho"> Seu chulézinho</label>
+      <label><input type="radio" name="q4" value="Tudo" > Tudo</label>
+      <label><input type="radio" name="q4" value="Cartão de crédito"> Seu cartão de crédito</label>
+    </div>
+
+    <div class="pergunta">
+      <p>5. Se formássemos uma dupla, seríamos...</p>
+      <label><input type="radio" name="q5" value="Batman & Robin"> Batman & Robin</label>
+      <label><input type="radio" name="q5" value="Lily e Marshall"> Lily e Marshall</label>
+      <label><input type="radio" name="q5" value="Shrek & Fiona"> Shrek & Fiona</label>
+      <label><input type="radio" name="q5" value="Bejamin & Batmin"> Bejamin & Batmin</label>
+    </div>
+
+    <div class="pergunta">
+      <p>6. Qual a primeira coisa que fazemos quando começamos um filme?</p>
+      <label><input type="radio" name="q6" value="Beijinho"> Beijinho</label>
+      <label><input type="radio" name="q6" value="Com briga"> Com briga por cobertor</label>
+      <label><input type="radio" name="q6" value="Batata"> "Pera que a batata não ta pronta"</label>
+      <label><input type="radio" name="q6" value="Pause"> "Pausa que vou no banheiro"</label>
+    </div>
+
+    <div class="pergunta">
+      <p>7. Se eu sumisse por um dia, onde me encontraria?</p>
+      <label><input type="radio" name="q7" value="Dormindo"> Dormindo</label>
+      <label><input type="radio" name="q7" value="Pensando em você"> Pensando em você</label>
+      <label><input type="radio" name="q7" value="Com Bibi"> Com a Bibi</label>
+      <label><input type="radio" name="q7" value="Dorama"> Assistindo dorama</label>
+    </div>
+
+    <div class="pergunta">
+      <p>8. O que nunca pode faltar no nosso relacionamento?</p>
+      <label><input type="radio" name="q8" value="Risadas"> Amor</label>
+      <label><input type="radio" name="q8" value="Comida"> Sinceridade</label>
+      <label><input type="radio" name="q8" value="Massagem"> Massagem</label>
+      <label><input type="radio" name="q8" value="Todas"> Todas as anteriores</label>
+    </div>
+
+    <div class="pergunta">
+      <p>9. Se eu pudesse fazer um pedido agora, seria:</p>
+      <label><input type="radio" name="q9" value="100 vidas"> Mais 100 vidas com você</label>
+      <label><input type="radio" name="q9" value="Massagem"> Massagem nas costas</label>
+      <label><input type="radio" name="q9" value="Jogar"> Jogar juntos</label>
+      <label><input type="radio" name="q9" value="Café"> Um café na cama</label>
+    </div>
+
+    <div class="pergunta">
+      <p>10. Por que você é tão especial pra mim?</p>
+      <label><input type="radio" name="q10" value="Vida"> Porque é o amor da minha vida</label>
+      <label><input type="radio" name="q10" value="Me ama"> Porque me ama</label>
+      <label><input type="radio" name="q10" value="Motivos" > Não sei, são muitos motivos</label>
+      <label><input type="radio" name="q10" value="Pika"> Porque é pika das galáxia</label>
+    </div>
+
+     <button type="submit">Enviar</button>
+  </form>
+
+  <div id="resultado" style="display:none;"></div>
+
+  <script src="src/scripts/script.js"></script>
+</body>
+</html>
