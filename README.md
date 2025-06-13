@@ -10,7 +10,7 @@
 6. [Tecnologias Utilizadas](#tecnologias-utilizadas)
 
 ## 1. Descrição e Propósito do Projeto
-Este projeto é uma forma de presentar alguém especial, podemos até dizer que seria quase uma serenata (mas na internet).
+Este projeto é uma forma de presentear alguém especial, podemos até dizer que seria uma serenata de amor (mas na internet).
 
 ## 2. Status do Projeto
 ![Status](https://img.shields.io/badge/STATUS-em_desenvolvimento-blue)
