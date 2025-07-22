@@ -50,7 +50,20 @@ Ideal para quem deseja surpreender alguém com um presente diferente, personaliz
   Clique em *<> Code* e depois em *Download ZIP* para baixar o projeto e personalizar à vontade.
 
 - 🌐 **Para ver meu projeto pessoal:**  
-  Acesse: [https://ariraine.github.io/love-quiz/](https://ariraine.github.io/love-quiz/)
+
+  Acesse: [https://ariraine.github.io/love-quiz/](https://ariraine.github.io/love-quiz/)  
+
+  Respostas corretas:
+  1. "Você e Bibi"
+  2. "Macarrão"
+  3. "😎"
+  4. "Tudo"
+  5. "Lily e Marshall"
+  6. "Pera que a batata não ta pronta"
+  7. "Assistindo dorama"
+  8. "Todas as anteriores"
+  9. "Mais 100 vidas com você"
+  10. "Não sei, são muitos motivos"
 
 ---
 
